@@ -9,6 +9,9 @@ header {
   padding: 20px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 .menu {
   font-weight: 700;
 
@@ -68,7 +71,7 @@ header {
   transition: 300ms;
 }
 
-#chamada {
+.chamada {
   margin-top: 20px;
   display: flex;
   justify-content: center;
@@ -80,8 +83,6 @@ header {
   display: flex;
   flex-direction: column;
   padding: 10px;
-
-  justify-content: center;
 }
 
 .cabeca_modulo {
@@ -100,8 +101,52 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  line-height: 1.5;
   font-size: 1.2em;
   background-color: #dddddd;
   padding: 10px;
+}
+
+.cargos_salario {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  padding: 10px;
+
+  align-items: center;
+  background-color: #086c13;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.mercado {
+  text-align: center;
+  padding: 10px;
+  /* margin: 50px 0; */
+
+}
+.mercado h2{
+  margin: 50px 0;
+}
+
+.mercado div {
+  padding: 20px;
+  background-color: #d40485;
+  margin: 10px 0;
+  color: #ffffff;
+}
+
+
+.contato {
+ padding: 100px 200px;
+}
+
+contato h2 {
+  margin: 50px 0;
+}
+
+.contato input {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
 }
